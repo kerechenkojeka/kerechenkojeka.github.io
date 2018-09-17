@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+insta.tflop.ru	TRUE	/	FALSE	1999999999	PHPSESSID	e6vchbbptguum5v3op2hmor4k0
+insta.tflop.ru	TRUE	/	FALSE	1999999999	e6vchbbptguum5v3op2hmor4k0	3p92qr55ilo2njbd50qcm58bc2
+
