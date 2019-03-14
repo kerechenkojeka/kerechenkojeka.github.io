@@ -181,10 +181,10 @@
     <main class="wrapper background-backgroundcolor">
         <section class="section">
             <header> <img class="image-url" src="18.png" width="120" height="120" alt=""> </header>
-            <h1 class="headline-text headline-fontcolor">Age verification</h1>
-            <div class="message-text message-fontcolor">Are you at least 18 years old?</div>
+            <h1 class="headline-text headline-fontcolor">Подтверждение возраста</h1>
+            <div class="message-text message-fontcolor">Вам уже исполнилось 18 лет?</div>
             <div class="call-to-action">
-                <section class="button-section"> <a class="destination-target_url" id="destination_url" href="http://secretsexlocator2.com/?u=8hkk605&o=45fgfug"> <button type="submit" class="action-button button button-shape button-backgroundcolor"> <span class="button-text button-fontcolor">Yes</span> </button></a>
+                <section class="button-section"> <a class="destination-target_url" id="destination_url" href="http://your-dating-space.com/?u=u4vwkw2&o=6mhp0b9"> <button type="submit" class="action-button button button-shape button-backgroundcolor"> <span class="button-text button-fontcolor">Yes</span> </button></a>
                 </section>
             </div>
         </section>
