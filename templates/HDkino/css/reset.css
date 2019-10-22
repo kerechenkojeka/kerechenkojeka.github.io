@@ -1,0 +1,71 @@
+::selection {background: #b5bac0;color: white;}
+::-webkit-scrollbar {
+	width: 11px;
+	//border: 1px solid #000;
+	//border-width:1px 1px 1px 2px;
+	background-color: #b5bac0;
+}
+::-webkit-scrollbar-thumb{	//border-width:1px 1px 1px 2px;
+	//border-color: #fff;
+	background-image: linear-gradient(to bottom, #515961, #515961);
+}
+::-webkit-scrollbar-thumb:hover{
+	// border-width: 1px 1px 1px 2px;
+	//border-color: #666;   
+	background-image: linear-gradient(to bottom, #515961, #515961);
+}
+::-webkit-scrollbar-thumb:active{ 
+	//border-width: 1px 1px 1px 2px;
+	//border-color: #666;
+	background-color: #b5bac0;
+}
+::-webkit-scrollbar-track{
+	border-width:0;
+}
+::-webkit-scrollbar-track:hover{
+	//border-left: solid 1px #000;
+	background-color: #b5bac0;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

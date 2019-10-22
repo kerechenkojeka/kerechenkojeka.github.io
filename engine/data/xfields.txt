@@ -1,0 +1,12 @@
+name|Оригинальное имя ||text||1|0|0|0|||0|0|||
+genre|Жанр||text||1|0|0|0|||0|0|||
+year|Год||text||1|1|0|0|||0|0|||
+directed|Режиссер||text||1|0|0|0|||0|0|||
+role|Роли||text||1|0|0|0|||0|0|||
+quality|Качество||select|HDRip__NEWL__DVDrip__NEWL__CamRip__NEWL__TS__NEWL__TVrip__NEWL__SATrip__NEWL__|0|0|0|0|||0|0|||
+country|Страна||text||1|0|0|0|||0|0|||
+studio|Студия||text||1|0|0|0|||0|0|||
+time|Время||text||1|0|0|0|||0|0|||
+kinop|Рейтинг КП||text||1|0|0|0|||0|0|||
+poster|Постер||text||0|0|0|0|||0|0|||
+play|moonwalk||text||1|0|0|0|||0|0|||
