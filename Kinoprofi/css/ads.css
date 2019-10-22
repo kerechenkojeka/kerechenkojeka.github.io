@@ -1,0 +1,72 @@
+.share-block.ads {
+	padding: 15px 10px 15px 10px;
+}
+
+.share-block.ads img {
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (min-width: 948px) {
+	body.guest .header {
+		padding: 300px 0 0 0;
+	}
+	body.showfull.guest .header {
+		padding: 266px 0 0 0;
+	}
+}
+
+@media only screen and (max-width: 948px) {
+	body.guest .header {
+		padding: 200px 0 0 0;
+	}
+}
+
+.branding .header {
+	padding: 230px 0 0 0;
+}
+
+.skin-branding {
+	background-position: center top;
+	background-color: #000;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.skin-branding a {
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+
+@media only screen and (max-width: 479px) {
+	.branding .header {
+		padding-top: 230px;
+	}
+	.showfull.branding .header {
+		padding: 190px 0 0 0;
+	}
+}
+@media only screen and (max-width: 948px) {
+	.branding .header {
+		padding-top: 230px;
+	}
+	.showfull.branding .header {
+		padding: 200px 0 0 0;
+	}
+}
+@media only screen and (min-width: 948px) {
+	.branding .header {
+		padding-top: 295px;
+	}
+	.showfull.branding .header {
+		padding: 280px 0 0 0;
+	}
+}

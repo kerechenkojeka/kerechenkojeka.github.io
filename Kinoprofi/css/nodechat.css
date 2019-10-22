@@ -1,0 +1,256 @@
+#nodechat {
+	z-index: 1000;
+	display: none;
+	margin: 1px;
+	background-color: #454545;
+	border: 5px solid #202020;
+	border-radius: 10px;
+	color: #E0DFDC;
+	box-shadow: 0 7px 24px 8px rgba(0, 0, 0, .4);
+}
+
+.ui-resizable-helper {
+	border: 2px dotted #0000FF;
+}
+
+#nodechat_head {
+	cursor: move;
+	padding: 1px 4px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 13px;
+	border: 0;
+	background: #202020;
+}
+
+#nodechat_head b {
+	line-height: 16px;
+	color: #ffa936;
+	text-shadow: 1px 1px #000;
+	float: left;
+	margin: 2px 0 0 2px;
+}
+
+#nodechat_body {
+	padding: 3px 0 0 0;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#nodechat_body #input_wrapper {
+	position: absolute;
+	width: 100%;
+	bottom: 23px;
+	height: 50px;
+	padding: 0 3px;
+}
+
+#nodechat_body #input_wrapper .doregister {
+	text-align: center;
+	color: #8d9092;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#nodechat_icons {
+	margin: 0 5px 0 0;
+	padding: 0;
+	float: right;
+	line-height: 20px;
+}
+
+#nodechat_icons_close {
+	top: -1px;
+}
+
+#nodechat_icons li {
+	margin: 1px 1px 1px 4px;
+	position: relative;
+	cursor: pointer;
+	float: left;
+	list-style: none;
+	font-size: 14px;
+}
+
+#nodechat_icons span.ui-icon {
+	float: left;
+	margin: 0 4px;
+}
+
+.nodechat_user {
+	cursor: pointer;
+}
+
+.nodechat_user {
+	color: #151515;
+	margin-left: 5px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+
+.fc_ugrp_1 {
+	color: #DC3F3F;
+}
+
+.fc_ugrp_2 {
+	color: #DC3F3F;
+}
+
+.fc_ugrp_3 {
+	color: #B4B8BB;
+}
+
+.fc_ugrp_4 {
+	color: #B4B8BB;
+}
+
+.fc_ugrp_5 {
+	color: #000;
+}
+
+.nodechat_mess {
+	border-bottom: 1px dashed #585454;
+	margin: 0 2px 3px;
+}
+
+.nodechat_date {
+	color: #656C71;
+	cursor: pointer;
+	float: right;
+	font-size: 10px;
+	font-style: italic;
+	margin-right: 6px;
+}
+
+.nodechat_edit {
+	float: right;
+	margin-right: 6px;
+}
+
+.nodechat_head span a {
+	margin: 0 1px;
+}
+
+.nodechat_text {
+	padding: 2px 2px 2px 5px;
+	font-size: 11px;
+	line-height: 12px;
+	color: #9C9C9C;
+	overflow: hidden;
+}
+
+.nodechat_info {
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-left: 5px;
+}
+
+#nodechat_msg_list {
+	width: calc(100% - 5px);
+	height: calc(100% - 75px);
+}
+
+#nodechat_msg_list .error {
+	background-color: #FF4500;
+}
+
+#nodechat_msg_list .notis {
+	background-color: #45FF00;
+}
+
+.nodechat_slile {
+	border: none;
+	vertical-align: middle;
+}
+
+#nodechat_btn {
+	margin: 14px auto;
+	width: 240px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 4px 15px 6px 15px;
+	color: #383838;
+	text-transform: uppercase;
+	text-align: center;
+	border: 1px solid #F0C518;
+	background: #ffa84c;
+	background: -moz-linear-gradient(top, #ffa84c 0%, #ff7b0d 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffa84c), color-stop(100%, #ff7b0d));
+	background: -webkit-linear-gradient(top, #ffa84c 0%, #ff7b0d 100%);
+	background: -o-linear-gradient(top, #ffa84c 0%, #ff7b0d 100%);
+	background: -ms-linear-gradient(top, #ffa84c 0%, #ff7b0d 100%);
+	background: linear-gradient(to bottom, #ffa84c 0%, #ff7b0d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa84c', endColorstr='#ff7b0d', GradientType=0);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.75);
+	box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.75);
+}
+
+#nodechat_btn:hover {
+	background: -moz-linear-gradient(top, #ffe100 0%, #ff8600 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffe100), color-stop(100%, #ff8600));
+	background: -webkit-linear-gradient(top, #ffe100 0%, #ff8600 100%);
+	background: -o-linear-gradient(top, #ffe100 0%, #ff8600 100%);
+	background: -ms-linear-gradient(top, #ffe100 0%, #ff8600 100%);
+	background: linear-gradient(to bottom, #ffe100 0%, #ff8600 100%);
+}
+
+#nodechat_btn i {
+	font-size: 18px;
+	margin: 0 4px 0 0;
+	color: #a24d00;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+#nodechat_btn span:after {
+	content: "Online чат с админами :)";
+}
+
+#nodechat_btn.onchat {
+	display: none;
+}
+
+#nodechat_input {
+	border: 0;
+	width: 100%;
+	height: 44px;
+	position: relative;
+	border-radius: 3px;
+	resize: none;
+	padding: 4px;
+	font-size: 11px;
+	color: #797979;
+	background-color: #202020;
+	overflow: hidden;
+}
+
+/* SideBar style */
+#nodechat_wrapper #nodechat {
+	margin: 14px;
+	border: 2px solid #202020;
+	background-color: #2B2B2B;
+	border-radius: 6px;
+	box-shadow: none;
+}
+
+#nodechat_wrapper #nodechat_head {
+	cursor: default;
+	border-radius: 5px 5px 0 0;
+	padding: 3px 4px 1px 4px;
+}
+
+#nodechat_wrapper #nodechat_body {
+	padding: 5px 0 80px 0;
+}
+
+#nodechat_wrapper #nodechat_msg_list {
+	width: 100%;
+	height: 100%;
+}
+
+#nodechat_wrapper #nodechat_input {
+	background-color: #171717;
+}
