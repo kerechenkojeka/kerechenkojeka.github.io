@@ -1,0 +1,1 @@
+<div class="lcomm"><div class="lmeta"><div class="lav img-box"><img src="{foto}" alt="{author}" /></div><div class="lname">{author}</div></div> <div class="ltext">{comment limit="100"}</div><a class="ltitle nowrap" href="{news-link}">{news-title}</a></div>
